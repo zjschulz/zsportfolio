@@ -1,4 +1,5 @@
 import React from 'react';
+import email from '../images/email.png';
 
 class Email extends React.Component {
     constructor(props) {
@@ -16,18 +17,20 @@ class Email extends React.Component {
             <h1>Contact Form</h1>
           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
-              <label htmlFor="name">Name</label>
+              <label style={{color: 'black'}} htmlFor="name">Name</label>
               <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
+              <label style={{color: 'black'}} htmlFor="exampleInputEmail1">Email address</label>
               <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
             </div>
             <div className="form-group">
-              <label htmlFor="message">Message</label>
+              <label style={{color: 'black'}} htmlFor="message">Message</label>
               <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button style={{color: '#B71FEA', padding: '0px'}} type="submit" className="btn btn-primary">
+              <img src={email} alt="email"></img>
+            </button>
           </form>
         </div>
       );
