@@ -6,8 +6,6 @@ const numCPUs = require('os').cpus().length;
 const isDev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 5000;
 
-console.log(PORT);
-
 var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
