@@ -55,35 +55,39 @@ export default class Test extends React.Component{
                     <div class="activity"><img src={videogame} alt="videogame"></img>Gamer</div>
                 </div>
                 <div class="content">
-                    <div class="projectframe">
-                        <a href="https://youtu.be/Np9cskcfYrs" target="_blank" rel="noopener noreferrer">
-                            <img src={rugby} alt="rugby"></img>
-                            <div class="centered">TRY AWARDED</div>
-                        </a>
+                    <div class="row" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap'}}>
+                        <div class="projectframe">
+                            <a href="https://youtu.be/Np9cskcfYrs" target="_blank" rel="noopener noreferrer">
+                                <img src={rugby} alt="rugby"></img>
+                                <div class="centered">TRY AWARDED</div>
+                            </a>
+                        </div>
+                        <div class="projectframe">
+                            <a href="https://youtu.be/IYj_KxJ1DoY" target="_blank" rel="noopener noreferrer">
+                                <img src={yardsale} alt="yardsale"></img>
+                                <div class="centered">YARDSALE</div>
+                            </a>
+                        </div>
+                        <div class="projectframe">
+                            <a href="https://www.youtube.com/watch?v=i7FJvKJF_Ds" target="_blank" rel="noopener noreferrer">
+                                <img src={dogapp} alt="dogapp"></img>
+                                <div class="centered">DOG APP</div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="projectframe">
-                        <a href="https://youtu.be/IYj_KxJ1DoY" target="_blank" rel="noopener noreferrer">
-                            <img src={yardsale} alt="yardsale"></img>
-                            <div class="centered">YARDSALE</div>
-                        </a>
-                    </div>
-                    <div class="projectframe">
-                        <a href="https://www.youtube.com/watch?v=i7FJvKJF_Ds" target="_blank" rel="noopener noreferrer">
-                            <img src={dogapp} alt="dogapp"></img>
-                            <div class="centered">DOG APP</div>
-                        </a>
-                    </div>
-                    <div class="projectframe">
+                    <div class="row" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap'}}>
+                        <div class="projectframe">
                         <a href="https://onehundred.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <img src={onehundred} alt="onehundred"></img>
                             <div class="centered">100 COMPS OF CODE</div>
                         </a>
-                    </div>
-                    <div class="projectframe">
-                        <a href="https://github.com/zjschulz/dnd-tool" target="_blank" rel="noopener noreferrer">
-                            <img src={dndtool} alt="dndtool"></img>
-                            <div class="centered">D&D TOOl</div>
-                        </a>
+                        </div>
+                        <div class="projectframe">
+                            <a href="https://github.com/zjschulz/dnd-tool" target="_blank" rel="noopener noreferrer">
+                                <img src={dndtool} alt="dndtool"></img>
+                                <div class="centered">D&D TOOl</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="email">

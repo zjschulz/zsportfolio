@@ -10824,12 +10824,12 @@
 
 .content {
   margin-top: 20px;
-  height: 500px;
+  /* height: 500px; */
   background-image: linear-gradient(black, #B71FEA);
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 .email {
