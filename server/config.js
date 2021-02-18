@@ -1,4 +1,4 @@
 module.exports = {
     USER: 'linkrrschulz@gmail.com', 
-    PASS: 'Hello Hacker Friend! How are you doing???'
+    PASS: process.env.REACT_APP_EMAIL_PASSWORD
 }
