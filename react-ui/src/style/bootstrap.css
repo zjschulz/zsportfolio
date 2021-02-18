@@ -10824,12 +10824,7 @@
 
 .content {
   margin-top: 20px;
-  /* height: 500px; */
   background-image: linear-gradient(black, #B71FEA);
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; */
 }
 
 .email {
@@ -10842,13 +10837,12 @@
 }
 
 .projectframe {
-
   justify-content: center;
-  background: -webkit-linear-gradient(left top, #2152f3 0%, black 100%);
+  background: -webkit-linear-gradient(left top, #2152f3 25%, #B71FEA 100%);
   width: 150px;
   height: 150px;
-  border-radius: 1000px;
-  padding: 10px;
+  border-radius: 750px;
+  padding: 6px;
   overflow: hidden;
   margin: 10px;
 }
@@ -10858,7 +10852,6 @@
   width: 100%;
   height: 100%;
   border-radius: 1000px;
-  opacity: 0.50;
 }
 
 .centered {
@@ -10883,9 +10876,3 @@
     -webkit-background-clip: text; 
     background-clip: text;
 }
-
-/* @media (max-width: 450px) {
-  .content, .email {
-    height: 100%;
-  }
-} */

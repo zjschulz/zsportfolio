@@ -83,7 +83,7 @@ export default class Test extends React.Component{
                         </a>
                         </div>
                         <div class="projectframe">
-                            <a href="https://github.com/zjschulz/dnd-tool" target="_blank" rel="noopener noreferrer">
+                            <a href="https://zsdnd-tool.herokuapp.com/home" target="_blank" rel="noopener noreferrer">
                                 <img src={dndtool} alt="dndtool"></img>
                                 <div class="centered">D&D TOOl</div>
                             </a>
