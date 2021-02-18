@@ -2,10 +2,8 @@ const express = require('express');
 const path = require('path');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
-
 const isDev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 5000;
-
 var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
