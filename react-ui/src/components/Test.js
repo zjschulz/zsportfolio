@@ -79,7 +79,7 @@ export default class Test extends React.Component{
                         <div class="projectframe">
                         <a href="https://onehundred.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <img src={onehundred} alt="onehundred"></img>
-                            <div class="centered">100 COMPS OF CODE</div>
+                            <div class="centered">PRACTICE COMPS OF CODE</div>
                         </a>
                         </div>
                         <div class="projectframe">
