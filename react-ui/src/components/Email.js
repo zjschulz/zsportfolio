@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import email from '../images/email.png';
 
 class Email extends React.Component {
@@ -52,10 +52,14 @@ class Email extends React.Component {
       this.setState({name: '', email: '', message: ''})
     }
 
+    url = useState('/send');
+
     handleSubmit(e) {
+        const [url, setUrl] = useState('/send');
         const PORT = process.env.PORT || 5000;
+        console.log(process.env)
         e.preventDefault();
-        fetch('http://localhost:' + PORT + '/send', {
+        fetch(url, {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
