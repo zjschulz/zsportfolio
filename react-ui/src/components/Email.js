@@ -53,8 +53,7 @@ class Email extends React.Component {
     }
 
     handleSubmit(e) {
-        const PORT = process.env.PORT || 5000;
-        console.log(process.env)
+        const PORT = process.env.PORT || 80;
         e.preventDefault();
         fetch('http://localhost:' + PORT + '/send', {
             method: "POST",
