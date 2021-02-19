@@ -52,8 +52,6 @@ class Email extends React.Component {
       this.setState({name: '', email: '', message: ''})
     }
 
-    url = useState('/send');
-
     handleSubmit(e) {
         const PORT = process.env.PORT || 5000;
         console.log(process.env)
