@@ -1,6 +1,7 @@
 {
   "short_name": "Zachary Schulz",
-  "name": "Zachary Schulz Portfolio",
+  "name": "Zachary Schulz Web Portfolio",
+  "image": "src/images/portrait.jpg",
   "icons": [
     {
       "src": "favicon.ico",
